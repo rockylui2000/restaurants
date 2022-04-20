@@ -1,0 +1,95 @@
+{
+  "_args": [
+    [
+      "strapi-plugin-email@3.0.0-beta.14",
+      "/Users/richard/Desktop/MIT/week28/apollo/backend"
+    ]
+  ],
+  "_from": "strapi-plugin-email@3.0.0-beta.14",
+  "_id": "strapi-plugin-email@3.0.0-beta.14",
+  "_inBundle": false,
+  "_integrity": "sha512-79dwsu3WtBMiZKzX3A98wxPsUJY/p1z3hqHELh5Kp+N0A5RqjhuJkM1i4f13E/QpbSF5xUsajk8EV3q8BbWa2A==",
+  "_location": "/strapi-plugin-email",
+  "_phantomChildren": {
+    "@babel/polyfill": "7.11.5",
+    "@types/bluebird": "3.5.32",
+    "bluebird": "3.7.2",
+    "commander": "2.20.3",
+    "glob": "7.1.6",
+    "inherits": "2.0.4",
+    "interpret": "1.4.0",
+    "joi-json": "2.1.0",
+    "liftoff": "3.1.0",
+    "mkdirp": "0.5.5",
+    "ms": "2.1.2",
+    "os-homedir": "1.0.2",
+    "pino": "4.17.6",
+    "pluralize": "7.0.0",
+    "rechoir": "0.6.2",
+    "uuid": "3.4.0",
+    "v8flags": "3.2.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-plugin-email@3.0.0-beta.14",
+    "name": "strapi-plugin-email",
+    "escapedName": "strapi-plugin-email",
+    "rawSpec": "3.0.0-beta.14",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0-beta.14"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-email/-/strapi-plugin-email-3.0.0-beta.14.tgz",
+  "_spec": "3.0.0-beta.14",
+  "_where": "/Users/richard/Desktop/MIT/week28/apollo/backend",
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "http://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "dependencies": {
+    "strapi-provider-email-sendmail": "3.0.0-beta.14",
+    "strapi-utils": "3.0.0-beta.14"
+  },
+  "description": "This is the description of the plugin.",
+  "devDependencies": {
+    "react-copy-to-clipboard": "5.0.1",
+    "rimraf": "^2.6.3",
+    "strapi-helper-plugin": "3.0.0-beta.14"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "6a34fe519ceb28aea1957df68def52d943c389a4",
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Strapi team",
+      "email": "hi@strapi.io",
+      "url": "http://strapi.io"
+    }
+  ],
+  "name": "strapi-plugin-email",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "name": "Email",
+    "icon": "paper-plane",
+    "description": "email.plugin.description",
+    "required": true
+  },
+  "version": "3.0.0-beta.14"
+}

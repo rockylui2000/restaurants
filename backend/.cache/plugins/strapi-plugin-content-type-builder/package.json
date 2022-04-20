@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      "strapi-plugin-content-type-builder@3.0.0-beta.14",
+      "/Users/richard/Desktop/MIT/week28/apollo/backend"
+    ]
+  ],
+  "_from": "strapi-plugin-content-type-builder@3.0.0-beta.14",
+  "_id": "strapi-plugin-content-type-builder@3.0.0-beta.14",
+  "_inBundle": false,
+  "_integrity": "sha512-HpUOji3/2RGFNqe6GQgjkZos0isfCU+4zPEYE7kWZrFzJxD20i9Xa8Ols1lH8YMKHX5/OzuSADgZOv37ZqaYcg==",
+  "_location": "/strapi-plugin-content-type-builder",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-plugin-content-type-builder@3.0.0-beta.14",
+    "name": "strapi-plugin-content-type-builder",
+    "escapedName": "strapi-plugin-content-type-builder",
+    "rawSpec": "3.0.0-beta.14",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0-beta.14"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.0.0-beta.14.tgz",
+  "_spec": "3.0.0-beta.14",
+  "_where": "/Users/richard/Desktop/MIT/week28/apollo/backend",
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "http://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "fs-extra": "^7.0.0",
+    "immutable": "^3.8.2",
+    "invariant": "^2.2.1",
+    "lodash": "^4.17.11",
+    "pluralize": "^7.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-intl": "^2.8.0",
+    "react-redux": "^7.0.2",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-transition-group": "^2.5.0",
+    "reactstrap": "^5.0.0",
+    "redux": "^4.0.1",
+    "redux-immutable": "^4.0.0",
+    "reselect": "^3.0.1",
+    "strapi-generate": "3.0.0-beta.14",
+    "strapi-generate-api": "3.0.0-beta.14",
+    "strapi-helper-plugin": "3.0.0-beta.14"
+  },
+  "description": "Strapi plugin to create content type (API).",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "6a34fe519ceb28aea1957df68def52d943c389a4",
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Strapi team",
+      "email": "hi@strapi.io",
+      "url": "http://strapi.io"
+    }
+  ],
+  "name": "strapi-plugin-content-type-builder",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "name": "Content Type Builder",
+    "icon": "paint-brush",
+    "description": "content-type-builder.plugin.description"
+  },
+  "version": "3.0.0-beta.14"
+}

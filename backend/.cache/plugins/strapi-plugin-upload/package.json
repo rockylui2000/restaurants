@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      "strapi-plugin-upload@3.0.0-beta.14",
+      "/Users/richard/Desktop/MIT/week28/apollo/backend"
+    ]
+  ],
+  "_from": "strapi-plugin-upload@3.0.0-beta.14",
+  "_id": "strapi-plugin-upload@3.0.0-beta.14",
+  "_inBundle": false,
+  "_integrity": "sha512-YDiUPR2bl1zLgmzqOhnUpCQFXECdPUT4sjMeR3HnAWy/VOYZZwPuASIUV2iizLpEANpZlYWQtSL7RdGGJ7Z0IQ==",
+  "_location": "/strapi-plugin-upload",
+  "_phantomChildren": {
+    "@babel/polyfill": "7.11.5",
+    "@types/bluebird": "3.5.32",
+    "bluebird": "3.7.2",
+    "commander": "2.20.3",
+    "glob": "7.1.6",
+    "inherits": "2.0.4",
+    "interpret": "1.4.0",
+    "joi-json": "2.1.0",
+    "liftoff": "3.1.0",
+    "mkdirp": "0.5.5",
+    "ms": "2.1.2",
+    "os-homedir": "1.0.2",
+    "pino": "4.17.6",
+    "pluralize": "7.0.0",
+    "rechoir": "0.6.2",
+    "uuid": "3.4.0",
+    "v8flags": "3.2.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-plugin-upload@3.0.0-beta.14",
+    "name": "strapi-plugin-upload",
+    "escapedName": "strapi-plugin-upload",
+    "rawSpec": "3.0.0-beta.14",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0-beta.14"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-upload/-/strapi-plugin-upload-3.0.0-beta.14.tgz",
+  "_spec": "3.0.0-beta.14",
+  "_where": "/Users/richard/Desktop/MIT/week28/apollo/backend",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "invariant": "^2.2.1",
+    "lodash": "^4.17.11",
+    "react": "^16.0.0",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-dom": "^16.0.0",
+    "react-intl": "^2.8.0",
+    "react-redux": "^7.0.2",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-transition-group": "^2.5.0",
+    "reactstrap": "^5.0.0",
+    "strapi-helper-plugin": "3.0.0-beta.14",
+    "strapi-provider-upload-local": "3.0.0-beta.14",
+    "strapi-utils": "3.0.0-beta.14",
+    "stream-to-array": "^2.3.0",
+    "uuid": "^3.2.1"
+  },
+  "description": "This is the description of the plugin.",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "6a34fe519ceb28aea1957df68def52d943c389a4",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "name": "strapi-plugin-upload",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "name": "Files Upload",
+    "icon": "cloud-upload",
+    "description": "Description of upload plugin."
+  },
+  "version": "3.0.0-beta.14"
+}
